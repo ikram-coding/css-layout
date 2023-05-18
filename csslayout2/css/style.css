@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100&family=Nunito:wght@200;300;400;600&family=Oswald&family=Tilt+Neon&display=swap');
+body{
+    font-family: sans-serif;
+    color: rgb(141, 134, 134);
+    max-width: 800px;
+    margin: auto;
+}
+
+a{
+    color:rgb(182, 178, 178) ;
+    text-decoration: none;
+}
+a:visited{
+    color:rgb(182, 178, 178);
+}
+.active{
+    color: #5dc6b0;
+}
+.Docplanner-header{
+    display: flex;
+    justify-content: space-between;
+     padding: 10px 0;
+}
+.Docplanner-logo{
+    height: 90px;
+    width: 90px;
+    background-color: white;
+}
+.Docplanner-logo img{
+    width: 220px;
+    font-size:220px;
+}
+.homepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+.homepage-logo {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+}
+.homepage-logo img{
+    width: 50px;
+    font-size: 50px;
+}
+.hometitle{
+    color: #5dc6b0;
+}
+.twoparagraphs{
+    display: flex;
+}
+.services{
+    display: flex;
+}
+.service-card{
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    margin: 10px;
+}
+
+.service-card-patients{
+    background-color: #5dc6b0;
+}
+
+.service-card-doctors{
+    background-color: #4293db;
+}
+
+.service-card-clinics{
+    background-color: black;
+}
+
+.service-card-select option{
+    box-sizing: border-box;
+}
+.sectionstit{
+    font-size: 25px;
+    color: #5dc6b0;
+}
+
+
+
